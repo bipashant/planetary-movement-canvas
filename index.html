@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body style="background-color: #aaa;">
+    <div class="controls" style="height: 40px;font-size: 20px;"></div>
+
+      <select id='firstPlanet'></select>
+      <select id='secondPlanet'></select>
+
+      <select id='speed'>
+        <optgroup>
+          <option value='normal'>Normal</option>
+          <option value='fast'>Fast</option>
+          <option value='super'>Super fast</option>
+        </optgroup>
+      </select>
+      <button id='startBtn'>Start</button>
+      <button id='stopBtn'>Stop</button>
+      <button id='resumeBtn'>Resume</button>
+    </div>
+    <div class='canvas'>
+      <canvas id="sky" style="border:1px solid #000; background: #000;  width: 100%; height: 90vh;">
+        Your browser does not support the HTML canvas tag.
+      </canvas>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="js/data.js"></script>
+    <script src="js/planet.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
