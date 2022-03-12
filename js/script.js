@@ -63,7 +63,7 @@ function animate() {
        c.beginPath();
        c.moveTo(firstPlanetPath[i].x, firstPlanetPath[i].y);
        c.lineTo(secondPlanetPath[i].x, secondPlanetPath[i].y);
-       c.strokeStyle = 'rgba(0, 192, 192, 0.09)';
+       c.strokeStyle = 'rgba(255, 77, 0, 0.09)';
        c.stroke();
     }
 
