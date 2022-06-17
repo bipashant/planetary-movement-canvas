@@ -19,13 +19,16 @@
       <button id='startBtn'>Start</button>
       <button id='stopBtn'>Stop</button>
       <button id='resumeBtn'>Resume</button>
+      <button id='changeBackground'>Toggle Background</button>
+      <input type="number" id="opacity" name="opacity" min="10" max="100">
+      <input type="number" id="count" name="count" min="1" max='10000000000'>
     </div>
-    <div class='canvas'>
-      <canvas id="sky" style="border:1px solid #000; background: #000;  width: 100%; height: 90vh;">
+          <canvas id="sky" style="border:1px solid #000; background: #000; width: 100%; height: 90vh;"></canvas>
         Your browser does not support the HTML canvas tag.
       </canvas>
-    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+
     <script src="js/data.js"></script>
     <script src="js/planet.js"></script>
     <script src="js/script.js"></script>
